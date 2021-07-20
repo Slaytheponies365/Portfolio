@@ -1,0 +1,48 @@
+.header{
+    font-size: 500%;
+    font-family:"broadway";
+    border-style:double ;
+    border-width: 500%;
+    border-radius: 10%;
+}
+body{
+    background-color: rgb(87, 87, 209);
+}
+.IronMan{
+    display: flex;
+    flex-wrap: wrap;
+    border-style: groove;
+    border-color: black;
+    margin: 5%;
+    padding: 2%;
+    background-color:#281E5D ;
+}
+img{
+    border-radius: 20%;
+}
+.information{
+    margin-top: 8%;
+}
+.games{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+    border-style: double;
+    border-radius: 10%;
+}
+.eachGame{
+    flex-basis: 20%;
+    margin: 3%;
+}
+#yes{
+    font-size: 2cm;
+    margin-left: 30%;
+    text-decoration: underline;
+}
+p{
+    font-size: 1cm;
+    margin-left: 25%;
+    font-family:cursive;
+    font-style:italic;
+}
